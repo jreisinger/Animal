@@ -7,9 +7,9 @@ Exercise 13-1,2,3 from Alpaca Book
 Interesting bits:
 
     lib/
+    script/
     t/00-load.t
-    script/barnyard
-
+    
 ### MY STUFF >>>
 
 The README is used to introduce the module and provide instructions on
