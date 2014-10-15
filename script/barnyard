@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Cow;
+use Horse;
+use Mouse;
+use Sheep;
+
+my @barnyard;
+{
+    print "Enter an animal (empty to finish): ";
+    chomp( my $animal = <STDIN> );
+    $animal = ucfirst lc $animal;    # canonicalize
+    last unless $animal =~ /^(Cow|Horse|Sheep|Mouse)$/;
+    push @barnyard, $animal;
+    redo;
+}
+
+for my $animal (@barnyard) {
+    $animal->speak;
+}
