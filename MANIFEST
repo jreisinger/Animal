@@ -3,10 +3,14 @@ Changes
 lib/Animal.pm
 lib/Cow.pm
 lib/Horse.pm
+lib/LivingCreature.pm
 lib/Mouse.pm
+lib/Person.pm
 lib/Sheep.pm
 MANIFEST			This list of files
 README
+script/barnyard
+script/person
 t/00-load.t
 t/boilerplate.t
 t/manifest.t
