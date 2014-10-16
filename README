@@ -9,6 +9,7 @@ Interesting bits:
     lib/
     script/
     t/00-load.t
+    t/Animal.t
     
 ### MY STUFF >>>
 
