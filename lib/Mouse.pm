@@ -6,7 +6,7 @@ use parent qw(Animal);
 # use Animal;
 # our @ISA = qw(Animal);
 
-sub sound { 'neigh' }
+sub sound { 'beep' }
 
 sub speak {
     my $class = shift;
